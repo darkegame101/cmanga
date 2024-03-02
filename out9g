@@ -1,0 +1,11 @@
+  for (const currency in currencies) {
+                if (currency == 'medicinal_point_plus' || currency == 'medicinal_upgrade_king' || currency == 'add_option'|| currency == 'guild_boss_1' || currency == 'guild_boss_2'|| currency == 'box_book_2' || currency == 'box_book_1'|| currency == 'box_book_3' || currency.includes('box_book')) {
+                    console.log(`➙ Chạy OUT...(lụm được ${VatPhamConver[currency]}`)
+                    preLogout()
+                }
+                       //trứng
+                if (currency == 'egg_rare'|| currency == 'egg_legendary' || currency == 'egg_dragon' || currency == 'egg_snake'|| currency == 'egg_phoenix'|| currency == 'egg_water_dragon') {
+                    console.log(`➙ Chạy OUT...(lụm được ${VatPhamConver[currency]}`)
+                    preLogout()
+                }
+            }
